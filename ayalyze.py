@@ -33,22 +33,6 @@ class ana:
         areaCounts = area.value_counts().sort_values(ascending=False)
         # 繪製直方圖
         self.plotimg(xnames=areaCounts.index, nums=areaCounts.values, imgName="工作地區")
-    def tool(self):
-        tools = self.df['擅長工具'].apply(lambda x: x.split('、'))
-        toolCounts = Counter([tool for sent in tools for tool in sent if '不拘' not in tool]) # 跌帶每個列表，再跌帶列表的list，並去除'不拘'
-        toolCounts = sorted(toolCounts.items(), key=lambda x: x[1], reverse=True)[:20] # 結果為 list(tuple)
-        # 繪製直方圖
-        toolNames = [tool[0] for tool in toolCounts]
-        toolNums = [tool[1] for tool in toolCounts]
-        self.plotimg(xnames=toolNames, nums=toolNums, imgName="擅長工具")
-    def ability(self):
-        abilitys = self.df['工作技能'].apply(lambda x: x.split('、'))
-        abilityCounts = Counter([ability for sent in abilitys for ability in sent if '不拘' not in ability]) # 跌帶每個列表，再跌帶列表的list，並去除'不拘'
-        abilityCounts = sorted(abilityCounts.items(), key=lambda x: x[1], reverse=True)[:20] # 結果為 list(tuple)
-        # 繪製直方圖
-        abilityNames = [tool[0] for tool in abilityCounts]
-        abilityNums = [tool[1] for tool in abilityCounts]
-        self.plotimg(xnames=abilityNames, nums=abilityNums, imgName="工作技能")  
     def oneData(self, targetname):
         target = self.df[targetname] 
         targetCounts = target.value_counts().sort_values(ascending=False).head(20)
