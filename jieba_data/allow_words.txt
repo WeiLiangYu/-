@@ -1,0 +1,142 @@
+資料分析
+統計模型
+Spark
+機器學習
+ML
+Machine Learning
+MachineLearning
+Reinforcement learning
+非監督式學習
+監督式學習
+Keras
+深度學習
+DL
+Deep Learning
+DeepLearning
+Tensor Flow
+Tensorflow
+Python開發經驗
+影像處理
+物件偵測
+Flask
+Flask開發經驗
+Django
+Fast API
+RESTful API
+模型架構
+英語測驗
+英文測驗
+OpenCV
+Open CV
+OpenAI
+ChatGPT
+GPT
+自然語言
+LLM
+NLP
+OpenGL
+LSTM
+CNN
+GAN
+RNN
+YOLO
+C#
+iPAS
+雲端
+容器化
+GCP
+AWS
+Kaggle
+PyTorch
+CI/CD
+分析技術
+Linux維運
+設計開發
+機器視覺系統
+TOEIC
+半導體
+AI應用
+系統管理
+資料庫管理
+Python
+MS SQL
+ETL
+MySQL
+Linux
+PostgreSQL
+Git
+Power BI​
+C#
+Java
+Tableau
+JavaScript
+AWS
+Excel
+Oracle
+Github
+hadoop
+Shell
+R
+HTML
+Python
+MS SQL
+ETL
+MySQL
+Linux
+PostgreSQL
+Git
+Power BI​
+C#
+Java
+Tableau
+JavaScript
+AWS
+Excel
+Oracle
+Github
+hadoop
+Shell
+R
+HTML
+平台開發
+實務經驗
+DevSecOpsPython
+C++
+C
+C#
+Git
+Linux
+MS SQL
+MySQL
+Java
+JavaScript
+Github
+Excel
+PowerPoint
+Word
+PostgreSQL
+AWS
+Visual Studio
+PL/SQL
+Django
+Visual C++
+Python
+C++
+C
+C#
+Git
+Linux
+MS SQL
+MySQL
+Java
+JavaScript
+Github
+Excel
+PowerPoint
+Word
+PostgreSQL
+AWS
+Visual Studio
+PL/SQL
+Django
+Visual C++
