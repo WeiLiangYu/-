@@ -1,4 +1,7 @@
 資料分析
+AI應用
+AI 應用
+程式設計
 統計模型
 Spark
 機器學習
@@ -140,3 +143,6 @@ Visual Studio
 PL/SQL
 Django
 Visual C++
+程式語言
+版本控制
+系統架構

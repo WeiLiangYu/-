@@ -60,7 +60,7 @@ class textCloud:
         seg_stop_words_list = []
         seg_words_list = []
         # 將專有名詞加入自定義詞
-        self.toolData('擅長工具')
+        # self.toolData('擅長工具')
         for word in allow_words:
             jieba.add_word(word)
         # 去除標點並jieba分詞
@@ -78,6 +78,6 @@ class textCloud:
         # plt.show()
         # plt.close()
 if __name__ == "__main__":
-    res = textCloud('AI工程師')
+    res = textCloud('資料工程師')
     res.jobContentCloud('工作內容')
     res.jobContentCloud('其他條件')
